@@ -23,7 +23,12 @@ namespace comp003a.lecture_activity_5_1
     {
         static void Main( string[] args )
         {
+            car mycar = new car();
+            mycar.Make = "Toyota";
+            mycar.Model = "Supra";
+            mycar.Year = 2024;
 
+            mycar.DisplayInfo();
         }
     }
 }
